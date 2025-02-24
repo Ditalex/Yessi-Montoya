@@ -1,0 +1,117 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía principal */
+    background-color: white;
+    color: #333; /* Color de texto general */
+}
+
+/* Color púrpura corporativo */
+.text-purple {
+    color: purple !important; /* El !important se usa con precaución */
+}
+
+/* Botón púrpura */
+.button-purple { /* Selector corregido: clase en lugar de elemento */
+    background-color: purple; /* Color púrpura */
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px; /* Ajuste de padding */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Indica que es un botón */
+}
+
+.button-purple:hover {
+    background-color: palevioletred; /* Tono más oscuro al pasar el mouse */
+}
+
+.button-purple:active {
+    background-color: palevioletred !important; /* !important solo si es necesario */
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section { /* Selector corregido: clase en lugar de elemento */
+    position: relative;
+    height: 500px;
+    background-image: url("imagen-de-fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-section h1 { /* Selector más específico */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p { /* Selector más específico */
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sección de procesos */
+.process-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+/* Estilos para la sección sobre mí (si se usa en este HTML) */
+#sobre-mi {
+    padding: 3rem 0;
+}
+
+#sobre-mi h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Newsletter */
+.bg-light { /* Estilos para la sección de newsletter */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 3rem 0;
+}
+
+/* Inputs */
+.form-control {
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+/* Media Queries (Responsive) */
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
