@@ -1,0 +1,35 @@
+// Header
+header {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    color: rgb(4, 3, 3);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+// Sección de procesos
+h3 {
+    font-size: 1.4rem;
+}
+
+// Sección sobre mí
+#sobre-mi {
+    padding: 3rem 0;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
